@@ -33,7 +33,7 @@ export default function Hero() {
         <div className="mt-12 md:mt-0 md:w-1/2">
           <div className="rounded-xl shadow-md bg-white p-6">
             <img
-              src="/images/001-a-cartoon-style-ai-robot-surrounded-by-v.png"
+              src="/images/hero-new.jpg"
               alt="AI cartoon robot illustration"
               className="w-full h-auto rounded-lg"
             />
