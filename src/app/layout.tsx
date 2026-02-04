@@ -11,16 +11,16 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en" className={inter.variable}>
-      <body className="bg-background bg-page-gradient font-sans">
-        <nav className="sticky top-0 bg-white shadow-md z-50">
+    <html lang="en" className={`${inter.variable} dark`}>
+      <body className="bg-background bg-page-gradient dark:bg-none font-sans dark:bg-dark-background dark:text-dark-text-primary">
+        <nav className="sticky top-0 bg-white shadow-md z-50 dark:bg-dark-surface">
           <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
-            <div className="text-2xl font-bold text-primary py-2">ClawAI</div>
+            <div className="text-2xl font-bold text-primary py-2 dark:text-dark-primary">ClawAI</div>
             <div className="space-x-4">
-              <a href="#FinalCTA" className="text-primary hover:underline underline-offset-4 transition">
+              <a href="#FinalCTA" className="text-primary hover:underline underline-offset-4 transition dark:text-dark-primary">
                 Learn More
               </a>
-              <a href="https://wa.me/" className="inline-block px-6 py-3 bg-primary text-white rounded-xl shadow-lg hover:bg-secondary transition-transform transform hover:-translate-y-0.5">
+              <a href="https://wa.me/" className="inline-block px-6 py-3 bg-primary text-white rounded-xl shadow-lg hover:bg-secondary transition-transform transform hover:-translate-y-0.5 dark:bg-dark-primary dark:text-dark-background dark:hover:bg-dark-secondary">
                 Chat on WhatsApp
               </a>
             </div>
