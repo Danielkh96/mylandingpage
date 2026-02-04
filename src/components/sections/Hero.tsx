@@ -16,7 +16,7 @@ export default function Hero() {
           <div className="mt-8 flex space-x-4">
             <a
               href="#"
-              className="inline-block px-8 py-4 bg-gradient-to-r from-primary to-secondary text-white rounded-2xl shadow-lg hover:opacity-90 transition dark:from-dark-primary dark:to-dark-secondary dark:text-dark-text-primary"
+              className="inline-block px-8 py-4 bg-gradient-to-r from-orange-500 to-orange-600 text-white rounded-2xl shadow-lg hover:opacity-90 transition dark:from-orange-700 dark:to-orange-800 dark:text-dark-text-primary"
             >
               Start Building
             </a>
