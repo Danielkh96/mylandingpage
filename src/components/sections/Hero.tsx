@@ -8,7 +8,7 @@ export default function Hero() {
         {/* Left Column */}
         <div className="md:w-1/2">
           <h1 className="text-6xl md:text-7xl font-bold leading-tight max-w-xl dark:text-dark-text-primary">
-            Build & Ship AI Apps Without Code
+            全方位 AI 学习平台
           </h1>
           <p className="mt-4 text-lg md:text-xl max-w-lg leading-relaxed dark:text-dark-text-secondary">
             Describe what you want. AI builds it. You iterate in real time.
