@@ -1,5 +1,8 @@
 import "./globals.css";
 import { ReactNode } from "react";
+import { Inter } from 'next/font/google';
+
+const inter = Inter({ subsets: ['latin'], variable: '--font-sans', display: 'swap' });
 
 export const metadata = {
   title: "AI Training & Web-App Building",
@@ -8,7 +11,7 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className={inter.variable}>
       <body className="bg-background bg-page-gradient font-sans">
         <nav className="sticky top-0 bg-white shadow-md">
           <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
