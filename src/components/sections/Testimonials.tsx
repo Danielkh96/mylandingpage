@@ -1,7 +1,13 @@
 export default function Testimonials() {
   return (
-    <section id="testimonials" className="bg-white border-b">
-      <div className="max-w-7xl mx-auto px-4 py-16 md:py-24">
+    <>
+      <div className="-mt-1">
+        <svg viewBox="0 0 1440 48" preserveAspectRatio="none" className="w-full h-12">
+          <path d="M0,16L1440,32L1440,0L0,0Z" fill="currentColor" className="text-white" />
+        </svg>
+      </div>
+      <section id="testimonials" className="bg-background">
+      <div className="max-w-7xl mx-auto px-6 py-32">
         <h2 className="text-3xl font-semibold text-center">What People Say</h2>
         <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
           {[1,2,3].map((i) => (
@@ -19,5 +25,6 @@ export default function Testimonials() {
         </div>
       </div>
     </section>
+    </>
   );
 }
