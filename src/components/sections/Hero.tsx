@@ -2,12 +2,12 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="bg-gradient-to-r from-indigo-700 via-indigo-600 to-indigo-500 text-white"
+      className="relative bg-page-gradient text-white overflow-hidden"
     >
-      <div className="max-w-7xl mx-auto px-4 py-16 md:py-24 flex flex-col md:flex-row items-center">
+      <div className="relative max-w-7xl mx-auto px-6 py-32 flex flex-col md:flex-row items-center gap-12">
         {/* Left Column */}
         <div className="md:w-1/2">
-          <h1 className="text-4xl md:text-5xl font-bold leading-tight max-w-xl">
+          <h1 className="text-6xl md:text-7xl font-bold leading-tight max-w-xl">
             Build & Ship AI Apps Without Code
           </h1>
           <p className="mt-4 text-lg md:text-xl max-w-lg leading-relaxed">
@@ -16,13 +16,13 @@ export default function Hero() {
           <div className="mt-8 flex space-x-4">
             <a
               href="#"
-              className="inline-block px-6 py-3 bg-indigo-600 text-white rounded-xl shadow-md hover:bg-indigo-700 transition"
+              className="inline-block px-8 py-4 bg-gradient-to-r from-primary to-secondary text-white rounded-2xl shadow-lg hover:opacity-90 transition"
             >
               Start Building
             </a>
             <a
               href="#"
-              className="inline-block px-6 py-3 border border-white text-white rounded-xl shadow-md hover:bg-white hover:text-indigo-600 transition"
+              className="inline-block px-8 py-4 border-2 border-white text-white rounded-2xl shadow-lg hover:bg-white hover:text-primary transition"
             >
               Watch Live Demo
             </a>
