@@ -32,14 +32,11 @@ export default function Hero() {
         {/* Right Column */}
         <div className="mt-12 md:mt-0 md:w-1/2">
           <div className="rounded-xl shadow-md bg-white p-6">
-            {/* Dashboard-style placeholder */}
-            <div className="h-4 bg-slate-200 rounded-full mb-4 w-1/4" />
-            <div className="space-y-2">
-              <div className="h-6 bg-slate-200 rounded w-full" />
-              <div className="h-6 bg-slate-200 rounded w-5/6" />
-              <div className="h-6 bg-slate-200 rounded w-3/4" />
-            </div>
-            <div className="mt-6 h-64 bg-slate-200 rounded" />
+            <img
+              src="/images/001-a-cartoon-style-ai-robot-surrounded-by-v.png"
+              alt="AI cartoon robot illustration"
+              className="w-full h-auto rounded-lg"
+            />
           </div>
         </div>
       </div>
