@@ -11,7 +11,7 @@ export default function Hero() {
             全方位 AI 学习平台
           </h1>
           <p className="mt-4 text-lg md:text-xl max-w-lg leading-relaxed dark:text-dark-text-secondary">
-            Describe what you want. AI builds it. You iterate in real time.
+            365 天陪跑学习计划，1对1 咨询
           </p>
           <div className="mt-8 flex space-x-4">
             <a
