@@ -1,34 +1,45 @@
-import CTAButton from "../../components/ui/CTAButton";
-
 export default function Hero() {
   return (
-    <section id="hero" className="bg-white border-b">
-      <div className="max-w-7xl mx-auto px-4 py-16 md:py-24 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-        <div>
-          <p className="text-sm uppercase text-indigo-600 font-medium">AI Web & App Bootcamp</p>
-          <h1 className="mt-2 text-4xl md:text-5xl font-bold leading-tight max-w-xl">
-            全方位 Ai 学习平台
+    <section
+      id="hero"
+      className="bg-gradient-to-r from-indigo-700 via-indigo-600 to-indigo-500 text-white min-h-[90vh]"
+    >
+      <div className="max-w-7xl mx-auto px-4 py-16 md:py-24 flex flex-col md:flex-row items-center">
+        {/* Left Column */}
+        <div className="md:w-1/2">
+          <h1 className="text-4xl md:text-5xl font-bold leading-tight max-w-xl">
+            Build & Ship AI Apps Without Code
           </h1>
-          <p className="mt-4 text-lg text-gray-600 max-w-md leading-relaxed">
-            Subheadline goes here.
+          <p className="mt-4 text-lg md:text-xl max-w-lg leading-relaxed">
+            Describe what you want. AI builds it. You iterate in real time.
           </p>
-          <div className="mt-8 space-x-4">
-            <CTAButton />
-            <a href="#faq" className="inline-block px-6 py-3 text-indigo-600 rounded-xl shadow-md hover:underline">
-              Learn More
+          <div className="mt-8 flex space-x-4">
+            <a
+              href="#"
+              className="inline-block px-6 py-3 bg-indigo-600 text-white rounded-xl shadow-md hover:bg-indigo-700 transition"
+            >
+              Start Building
+            </a>
+            <a
+              href="#"
+              className="inline-block px-6 py-3 border border-white text-white rounded-xl shadow-md hover:bg-white hover:text-indigo-600 transition"
+            >
+              Watch Live Demo
             </a>
           </div>
         </div>
-        <div>
+
+        {/* Right Column */}
+        <div className="mt-12 md:mt-0 md:w-1/2">
           <div className="rounded-xl shadow-md bg-white p-6">
-            {/* Visual placeholder skeleton */}
-            <div className="h-3 bg-slate-200 rounded-full mb-4 w-1/3" />
+            {/* Dashboard-style placeholder */}
+            <div className="h-4 bg-slate-200 rounded-full mb-4 w-1/4" />
             <div className="space-y-2">
-              <div className="h-4 bg-slate-200 rounded" />
-              <div className="h-4 bg-slate-200 rounded w-5/6" />
-              <div className="h-4 bg-slate-200 rounded w-2/3" />
+              <div className="h-6 bg-slate-200 rounded w-full" />
+              <div className="h-6 bg-slate-200 rounded w-5/6" />
+              <div className="h-6 bg-slate-200 rounded w-3/4" />
             </div>
-            <div className="mt-6 h-48 bg-slate-200 rounded" />
+            <div className="mt-6 h-64 bg-slate-200 rounded" />
           </div>
         </div>
       </div>
