@@ -7,7 +7,7 @@ export default function Hero() {
         <div>
           <p className="text-sm uppercase text-indigo-600 font-medium">AI Web & App Bootcamp</p>
           <h1 className="mt-2 text-4xl md:text-5xl font-bold leading-tight max-w-xl">
-            Headline Goes Here
+            全方位 Ai 学习平台
           </h1>
           <p className="mt-4 text-lg text-gray-600 max-w-md leading-relaxed">
             Subheadline goes here.
