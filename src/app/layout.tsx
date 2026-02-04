@@ -9,7 +9,7 @@ export const metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body className="bg-slate-50 font-sans">
+      <body className="bg-background bg-page-gradient font-sans">
         <nav className="sticky top-0 bg-white shadow-md">
           <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
             <div className="text-xl font-bold">ClawAI</div>
