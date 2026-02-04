@@ -31,13 +31,11 @@ export default function Hero() {
 
         {/* Right Column */}
         <div className="mt-12 md:mt-0 md:w-1/2">
-          <div className="rounded-xl shadow-md bg-white p-6">
-            <img
-              src="/images/hero-new.jpg"
-              alt="AI cartoon robot illustration"
-              className="w-full h-auto rounded-lg"
-            />
-          </div>
+          <img
+            src="/images/hero-new.jpg"
+            alt="AI cartoon robot illustration"
+            className="w-full h-auto rounded-xl shadow-md"
+          />
         </div>
       </div>
     </section>
