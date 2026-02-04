@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="bg-gradient-to-r from-indigo-700 via-indigo-600 to-indigo-500 text-white min-h-[90vh]"
+      className="bg-gradient-to-r from-indigo-700 via-indigo-600 to-indigo-500 text-white"
     >
       <div className="max-w-7xl mx-auto px-4 py-16 md:py-24 flex flex-col md:flex-row items-center">
         {/* Left Column */}
