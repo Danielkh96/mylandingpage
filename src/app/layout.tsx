@@ -17,6 +17,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
             <div className="text-2xl font-bold text-primary py-2 dark:text-dark-primary">ClawAI</div>
             <div className="space-x-4">
+              <a href="/" className="text-primary hover:underline underline-offset-4 transition dark:text-dark-primary">首页</a>
+              <a href="/listings" className="text-primary hover:underline underline-offset-4 transition dark:text-dark-primary">房源列表</a>
+              <a href="/contact" className="text-primary hover:underline underline-offset-4 transition dark:text-dark-primary">联系我们</a>
               <a href="/contact" className="text-primary hover:underline underline-offset-4 transition dark:text-dark-primary">
                 联系我们
               </a>
